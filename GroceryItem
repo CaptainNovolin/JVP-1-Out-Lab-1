@@ -1,18 +1,29 @@
 public class GroceryItem
 {
     private String name;
-    private int cost;
+    private double cost;
     private int aisleNum;
     
-    public GroceryItem(String startName, int startCost, int startAisleNum)
+    public GroceryItem(String startName, double startCost, int startAisleNum)
     {
        name = startName;
        cost = startCost;
        aisleNum = startAisleNum;
     }
     
-    public int getName()
+    public String getName()
     {
-        return startName;
+        return name;
+    }
+    
+    public double getCost()
+    {
+        return cost;
+    }
+    
+    public int getAisle()
+    {
+        return aisleNum;
     }
 }
+
