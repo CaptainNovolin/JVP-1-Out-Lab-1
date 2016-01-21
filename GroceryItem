@@ -10,7 +10,7 @@ public class GroceryItem
        cost = startCost;
        aisleNum = startAisleNum;
     }
-
+    
     public int getName()
     {
         return startName;
